@@ -1,27 +1,29 @@
-
+import os
 
 def funcion1():
     os.system('cls')
-    print("Dame dos numeros: ")
-    num1= int(input("Primer numero:"))
-    num1= int(input("Segundo numero:"))
+    print("Dame 2 numeros: ")
+    num1= int(input("Primer numero: "))
+    num2= int(input("Segundo numero: "))
     res=num1+num2
-    print("la suma de {} + {} es {}".format(num1, num2, res))
+    print("la suma de {} y {} es {}".format(num1,num2,res))
+    
 
 def funcion2():
-    print("Hola, soy la funcion 2")
+    print("Hola soy la función 2")
 
-    def run():
-        os.system('cls')
-        print("Menu opciones:")
-        print("1. Suma de numeros")
-        print("2. Otra opcion")
-        print("2. Salir")
-        opcion= int(input("Ingrese una opcion:"))
-        if opcion==1:
-            funcio1()
-        if opcion==2:
-            funcio2()
+def run():
+    os.system('cls')
+    print("Menu de opciones")
+    print("1. Suma de dos numeros")
+    print("2. Otra opcion")
+    print("3. Salir")
+    op=int(input("Numero: "))
+    if op ==1:
+        funcion1()
+    else:
+        funcion2()
 
-if__name__== "__main__":
+
+if __name__ == "__main__":
     run()

@@ -1,0 +1,6 @@
+
+
+CINEPOLIS TICKET
+Nombres de las personas que compraron boletos: noemi, luis
+Cantidad de boletos: 9
+Total pagado: 87.48
